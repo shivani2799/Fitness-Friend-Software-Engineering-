@@ -1,0 +1,32 @@
+{
+  "users" : {
+    "nykyXt5FVegEUHBAxColMbrrKoA3" : {
+      "Workouts" : [ 15, 10, 10, 14, 25, 10, 30 ],
+      "calsIn" : 900,
+      "calsOut" : 272.0238095238095,
+      "email" : "test@test.com",
+      "endTime" : 12,
+      "favList" : {
+        "-M6d5JDREmc1HZIkBciR" : {
+          "cals" : 52,
+          "name" : "apple"
+        },
+        "-M6jtNgF5YFj6TBLBAhZ" : {
+          "cals" : 268,
+          "name" : "pizza"
+        }
+      },
+      "firstName" : "Jane",
+      "gender" : "Female",
+      "goal" : "Lose Weight",
+      "goalWeight" : 125,
+      "lastName" : "last",
+      "notifyTime" : 5,
+      "password" : "password",
+      "pounds" : "5",
+      "startTime" : 9,
+      "timeNeeded" : 45,
+      "weight" : "130"
+    },
+  }
+}
