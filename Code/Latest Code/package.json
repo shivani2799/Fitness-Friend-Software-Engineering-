@@ -1,0 +1,33 @@
+{
+  "name": "fitnessfriend-homescreen",
+  "version": "0.0.0",
+  "description": "No description",
+  "author": null,
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "devDependencies": {
+    "babel-preset-expo": "^7.0.0"
+  },
+  "dependencies": {
+    "expo": "^36.0.0",
+    "react": "16.9.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.1.tar.gz",
+    "axios": "latest",
+    "redux": "latest",
+    "firebase": "latest",
+    "react-redux": "latest",
+    "redux-thunk": "latest",
+    "expo-permissions": "~8.0.0",
+    "react-navigation": "latest",
+    "react-native-paper": "latest",
+    "react-native-screens": "^2.0.0",
+    "react-navigation-stack": "latest",
+    "@react-navigation/stack": "latest",
+    "react-native-super-grid": "latest",
+    "@react-navigation/native": "latest",
+    "react-native-input-spinner": "latest",
+    "react-native-table-component": "latest",
+    "react-native-safe-area-context": "0.6.0",
+    "@react-native-community/masked-view": "0.1.1"
+  }
+}
