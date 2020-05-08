@@ -1,3 +1,6 @@
+// written by: Mya Odrick
+  // tested by: Mya Odrick
+  // debugged by: Mya Odrick
 import React from 'react';
 import { StyleSheet, Text, View, FlatList, Image, TouchableOpacity, Dimensions, Button } from 'react-native';
 import firebase from '../../../config'
