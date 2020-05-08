@@ -1,3 +1,6 @@
+// written by: Mya Odrick
+  // tested by: Mya Odrick
+  // debugged by: Mya Odrick
 import React from 'react';
 import { View, TouchableOpacity, Button } from 'react-native';
 import { BarChart, Grid, XAxis } from 'react-native-svg-charts';
