@@ -135,7 +135,7 @@ export default class Recommend extends React.Component {
         });
       } else if (this.state.meal == 'Lunch') {
         this.setState({
-        foods: 'chikpea salad, caprese sandwich, zucchini noodle stir fry',
+        foods: 'chickpea salad, caprese sandwich, zucchini noodle stir fry',
         });
       } else if (this.state.meal == 'Dinner'){
         this.setState({
