@@ -1,3 +1,6 @@
+// written by: Mya Odrick
+  // tested by: Mya Odrick
+  // debugged by: Mya Odrick
 import 'react-native-gesture-handler';
 import * as React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
