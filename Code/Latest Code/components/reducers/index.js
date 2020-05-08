@@ -1,3 +1,6 @@
+// written by: Mya Odrick
+  // tested by: Mya Odrick
+  // debugged by:
 import { combineReducers } from 'redux'
 import { LOGIN, SIGNUP, UPDATE_EMAIL, UPDATE_PASSWORD } from '../actions/user'
 
