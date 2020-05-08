@@ -1,3 +1,6 @@
+// Created by - Shivani Sunil
+// Tested by - Shivani Sunil
+// Debugged by - Shivani Sunil
 import React, { Component } from 'react';
 import { Platform, StyleSheet, Text, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
