@@ -1,5 +1,5 @@
 // written by: Hedaya Walter
-  // tested by: Hedaya Walter & Mya Odrick
+  // tested by: Hedaya Walter
   // debugged by: Hedaya Walter & Mya Odrick
 import * as React from 'react';
 import {
