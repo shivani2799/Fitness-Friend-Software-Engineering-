@@ -8,7 +8,8 @@ import { createStackNavigator } from '@react-navigation/stack';
 import Homescreen from './components/Homescreen';
 import FoodInput from './components/FoodInput';
 import ExercisePage from './components/ExercisePage';
-import GoalsPage from './components/Goals'
+import GoalsPage from './components/Goals';
+import Recommend from './components/Recommend';
 
 const Stack = createStackNavigator();
 
@@ -22,6 +23,7 @@ function CalorieTracker(){
         <Stack.Screen name="Exercise" component={ExercisePage} />
         <Stack.Screen name = "Home" component={Homescreen} />
         <Stack.Screen name = "Goals" component={GoalsPage} />
+        <Stack.Screen name = "Recommend" component={Recommend} />
       </Stack.Navigator>
     </NavigationContainer>
   );
