@@ -1,3 +1,6 @@
+// written by: Mya Odrick
+  // tested by: Mya Odrick
+  // debugged by: Mya Odrick
 import React, { Component } from 'react';
 import {
   Button,
