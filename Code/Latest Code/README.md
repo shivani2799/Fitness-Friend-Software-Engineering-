@@ -161,6 +161,7 @@ Unit tests and Integration tests can be found in the Tests folder.
 ● Snack Expo​ - React Native online editor
 ● JavaScript
 ● Edamam API
+● Spotify API 
 ● Google Firebase Database
 ```
 ## Authors
