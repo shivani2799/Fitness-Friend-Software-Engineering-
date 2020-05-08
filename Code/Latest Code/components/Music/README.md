@@ -1,11 +1,11 @@
-# Sample Snack app
+Spotify Authorization:
+	We used the OAuth function to create a connection with the Spotify account of every User. 
+	The user will click on the login button and will be redirected to Spotify website. 
+	There they can login using their user id, email or facebook. After logging in the 
+	user is redireted back to our app. Now, their Spotify account is synched with our app. 
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by clicking the **Run** button or use the simulator by clicking **Tap to Play**. When you're done, click **Save** and share the link!
-
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Export** your project and use it with [expo-cli](https://docs.expo.io/versions/latest/introduction/installation.html).
-
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the **Embed** button.
-
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.io).
-
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack-web).
+Playlist creator:
+	After the user synchs their account withour app, the user can now select an exercise they 
+	want to do. They can also select the genre of music and how long they want to exercise. 
+	This data will be passed to the Spotify app and a new playlist will be created for the
+	user. The user can listen to this playlist on Spotify while exercising.
