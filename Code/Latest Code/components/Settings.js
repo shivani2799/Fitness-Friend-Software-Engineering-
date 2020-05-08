@@ -1,3 +1,6 @@
+  // written by: Jenna Krause & Mya Odrick
+  // tested by: Jenna Krause & Mya Odrick
+  // debugged by: Jenna Krause 
 import * as React from 'react';
 import { StyleSheet, Text, View, TextInput, Button, TouchableHighlight,
   Image, Alert, WebView } from 'react-native';
