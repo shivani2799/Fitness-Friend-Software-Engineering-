@@ -1,4 +1,7 @@
 
+// written by: Mya Odrick
+  // tested by: Mya Odrick & Jenna Krause
+  // debugged by: Jenna Krause
 import Firebase, {db} from '../../config'
 
 // define types
