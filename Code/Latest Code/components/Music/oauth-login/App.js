@@ -1,3 +1,6 @@
+// Created by - Devvrat Patel
+// Tested by - Devvrat Patel
+// Debugged by - Shivani Sunil
 import React, { Component } from 'react';
 import { Button, StyleSheet, Text, View } from 'react-native';
 import { AuthSession } from 'expo';
