@@ -76,6 +76,10 @@ export default class App extends Component {
            <MaterialCommunityIcons name="update" size={25} />
             <Text style={styles.item}>Goals</Text>
           </TouchableOpacity>
+          <TouchableOpacity
+            onPress={() => this.props.navigation.navigate('Recommend')}>
+            <Text style={styles.smallItem}>Get Recommendations</Text>
+          </TouchableOpacity>
         </View>
 
         <View style={styles.bottomContainer}>
@@ -141,5 +145,10 @@ const styles = StyleSheet.create({
     fontSize: 18,
     //paddingLeft: 15,
     //paddingRight: 15,
+  },
+  smallItem: {
+    margin: 5,
+    fontSize: 12,
+    textAlign: 'center',
   },
 });
