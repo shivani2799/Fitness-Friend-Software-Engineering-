@@ -28,5 +28,5 @@ Currently, we are having trouble with fully integrating some features to the fit
 References used: 
 
 Spotify API: We used the Spotify SDK guide and used OAuth, however Spotify included documentation for android studio like platforms and we have to debug it to fit the react native syntax so that it can be integrated within expo. 
-Spotify App: After much research we decided to implement a music search only database and we based it off of a project already done, as we did not want to reinvent the wheel, However, since that was done a while back, the reference link is not found anymore
+Spotify App: After much research we decided to implement a music search only database and we based it off of a project already done, as we did not want to reinvent the wheel, However, since that was done a while back, the reference link is not found anymore. This search only database was created to test out the music algorithm and also as a backup, in case, the user was not able to Oauth Spotify. 
 
