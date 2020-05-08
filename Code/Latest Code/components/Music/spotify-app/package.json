@@ -12,7 +12,7 @@
     "expo": "^34.0.0",
     "react": "16.8.3",
     "react-native": "https://github.com/expo/react-native/archive/sdk-34.0.2.tar.gz",
-    "lodash": "4.17.11",
+    "lodash": "4.17.15",
     "client-oauth2": "4.2.1",
     "react-native-paper": "2.1.3",
     "react-native-elements": "0.19.1",
