@@ -1,3 +1,6 @@
+// written by: Maria Rios
+  // tested by: Maria Rios
+  // debugged by: Maria Rios
 import React, { Component } from 'react';
 import {
   FontAwesome,
