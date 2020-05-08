@@ -61,9 +61,9 @@ export default class App extends React.Component {
 
   calculateGoalWeight(){ 
     if(this.state.goal == "Gain Muscle"){
-      this.setState({goalWeight: this.state.weight + this.state.pounds});
+      this.setState({goalWeight: parseInt(this.state.weight) + parseInt(this.state.pounds)});
     } else if (this.state.goal == "Lose Weight"){
-      this.setState({goalWeight: this.state.weight - this.state.pounds});
+      this.setState({goalWeight: parseInt(this.state.weight) - parseInt(this.state.pounds)});
     }
     this.addToTracker();
   }
@@ -122,12 +122,12 @@ export default class App extends React.Component {
         </TouchableOpacity>
         <Text style={styles.header}>Choose a goal:</Text>
         <TouchableOpacity
-          onPress={() => this.selectType('Gain Muscle')}
+          onPress={() => this.selectGoal('Gain Muscle')}
           style={{ backgroundColor: this.state.backgroundColorG }}>
           <Text style={styles.items}>Gain Muscle</Text>
         </TouchableOpacity>
         <TouchableOpacity
-          onPress={() => this.selectType('Lose Weight')}
+          onPress={() => this.selectGoal('Lose Weight')}
           style={{ backgroundColor: this.state.backgroundColorL }}>
           <Text style={styles.items}>Lose Weight</Text>
         </TouchableOpacity>
