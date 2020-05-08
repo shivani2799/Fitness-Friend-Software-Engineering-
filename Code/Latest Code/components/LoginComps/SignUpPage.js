@@ -1,3 +1,6 @@
+// written by: Jenna Krause
+  // tested by: Jenna Krause
+  // debugged by: Mya Odrick
 import React, { Component } from 'react';
 import { StyleSheet, Text, View, TextInput, Button, TouchableHighlight, Image,
   Alert, WebViewPlatform,} from 'react-native';
