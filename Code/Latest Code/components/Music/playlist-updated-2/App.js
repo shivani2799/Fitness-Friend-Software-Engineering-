@@ -1,5 +1,5 @@
-// Created by - Shivani Sunil
-// Tested by - Shivani Sunil
+// Created by - Amber Haynes
+// Tested by - Amber Haynes
 // Debugged by - Shivani Sunil
 import React, { Component } from 'react';
 import { Platform, StyleSheet, Text, View } from 'react-native';
