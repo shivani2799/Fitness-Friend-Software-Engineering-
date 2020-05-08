@@ -1,6 +1,6 @@
 // Created by - Amber Haynes
 // Tested by - Amber Haynes
-// Debugged by - Shivani Sunil
+// Debugged by - Amber Haynes
 import React, { Component } from 'react';
 import { Platform, StyleSheet, Text, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
