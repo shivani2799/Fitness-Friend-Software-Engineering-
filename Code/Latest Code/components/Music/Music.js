@@ -1,3 +1,6 @@
+// written by: Mya Odrick
+  // tested by: Mya Odrick
+  // debugged by:
 import * as React from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import Constants from 'expo-constants';
