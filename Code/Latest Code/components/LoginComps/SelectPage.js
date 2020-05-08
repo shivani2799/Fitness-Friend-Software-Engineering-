@@ -1,3 +1,6 @@
+// written by: Jenna Krause
+  // tested by: Jenna Krause
+  // debugged by: Jenna Krause
 import React, {Component} from 'react';
 import {
   Platform,
