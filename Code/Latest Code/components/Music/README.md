@@ -1,13 +1,9 @@
 The music curator consists of 4 UI buttons, the playlist curator- which enables the user to select a workout type and then in turn follows up regarding the music genre the user prefers as well as the duration of their workout; the OAuth- which enables spotify integration; Spotify App- which provides the user with a music database without having to log-in to their spotify account, this database was essentially integrated for the music algorithm- more explantion follows below. Lastly, the 4th UI button is home, and this takes the user back to the homepage of Fitness Friend. 
 
 Playlist Curator/Exercise Selector: 
-
-	The Playlist Curator "Make a playlist" button allows the user to select (exercise, time, genre) pairings for any number of   		exercises they wish to do. In the back-end, the system dynamically updates three queues to store exercise, time, and genre 
+	The Playlist Curator "Make a playlist" button allows the user to select (exercise, time, genre) pairings for any number of 	
+	exercises they wish to do. In the back-end, the system dynamically updates three queues to store exercise, time, and genre 	
 	selections separately. In order to be passed to the music algorithm page, these queues are converted to strings and passed.
-  
-
-
-
 
 Spotify Authorization:
 	OAuth is typically used when apps need access to the user's accounts such as Facebook, Instagram, Spotify and other leading user 	 platforms.
