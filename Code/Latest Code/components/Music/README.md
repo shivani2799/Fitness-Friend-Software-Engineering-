@@ -19,7 +19,13 @@ Playlist creator:
 	This data will be passed to the Spotify app and a new playlist will be created for the
 	user. The user can listen to this playlist on Spotify while exercising.
 	
-	Music Algorithm: 
+Music Algorithm: 
+	The music algorithm can be located on the curation.js component and is the fourth page under the Playlist Curator button.
+	It is entirely back-end and receives exercise, genre, and time queues as strings from the third exercise selector page. 
+	A large part of this algorithm involves converting the string to a character array, and then to an int array. Next, exercises 
+	are mapped to bpm ranges which are then put into a new queue. Genre numbers are mapped to strings and placed into a new genre 
+	array. If the Spotify API were thoroughly integrated, these transformed user inputs could be placed directly into the API 
+	method
 	
 	
 	
