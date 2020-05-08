@@ -1,9 +1,7 @@
 import * as React from 'react';
 import { Text, View, StyleSheet, TouchableOpacity, TextInput} from 'react-native';
 import Constants from 'expo-constants';
-
-
-class Queue{
+class Queue {
   constructor(){
     this.data= [];
   }
@@ -33,66 +31,17 @@ class Queue{
     return this.data.shift();
   }
 }
-
-function printn(n){
-  return n;
-}
-//given three queues, also the length n, after converting string to queues
-//2n length array for bpm ranges (2n-1 and 2n represent the ranges for exercise n)
+//given three queues/arrays of length n
 //exercisearray -> i
 //timearray -> j
 //genrearray -> k
 
-//declare bpm as a queue
-//declare genreq as an array of strings of length n
+//declare bpm as a queue to be used in function "bpm"
+//2n length array for bpm ranges (indices 2n-2 and 2n-1 represent the ranges for exercise n)
+var bpmarray=new Queue;
 
-/*function bpm(k, i){
-
-switch (k){
-case 1: //rap
-switch (i){
-case 1:
-bpmarray.enqueue(bpmlower);
-bpmarray.enqueue(bpmupper);
-case 2:
-bpmarray.enqueue(bpmlower);
-bpmarray.enqueue(bpmupper);
-case 3:
-bpmarray.enqueue(bpmlower);
-bpmarray.enqueue(bpmupper);
-case 4:
-bpmarray.enqueue(bpmlower);
-bpmarray.enqueue(bpmupper);
-case 5:
-bpmarray.enqueue(bpmlower);
-bpmarray.enqueue(bpmupper);
-case 6:
-bpmarray.enqueue(bpmlower);
-bpmarray.enqueue(bpmupper);
-case 7:
-bpmarray.enqueue(bpmlower);
-bpmarray.enqueue(bpmupper);
-}
-break;
-//and so on for all genres
-}
-bpmarray.printQueue();
-}
-
-}
-function genredecode(w){
-switch(w){
-case 1:
-genreq[w]="Rap";
-case 2:
-genreq[w]="Pop";
-case 3:
-genreq[w]="Classical";
-case 4:
-genreq[w]="Country";
-}
-}
-*/
+//declare genreq as an array of strings of length n to be used in "genredecode"
+var genreq=new Queue;
 
 export default class App extends React.Component {
 
@@ -109,7 +58,7 @@ var chararr3 = new Array(n);
 chararr=exercisestring.split(" ");
 chararr2=timestring.split(" ");
 chararr3=genrestring.split(" ");
-/* Test:
+/* Functional Test:
 for(var b=0; b<n; b++){
   console.log(chararr[b]);
   alert(chararr[b])
@@ -122,18 +71,63 @@ var genrearray =[];
 for(var h=0; h<n; h++)
 {
 exercisearray.push(+chararr[h]); //automatic type casting
-timearray=(+chararr2[h]);
-genrearray=(+chararr3[h]);
-
+timearray.push(+chararr2[h]);
+genrearray.push(+chararr3[h]);
+}
 //at this point, all data has been converted back to int arrays
-//next step: create bpm queue and array of genre strings. not fully tested. See fncs above.
+//next step: create bpm queue and array of genre strings.
+//They're implemented below.
 
-/*for(int m=0; m<n; m++){
-bpm(genrearray[m], exercisearray[m]);
-genredecode(genrearray[m]);
+for(var m=0; m<n; m++){
+//bpm queue creation
+switch(exercisearray[m]){
+case 1:
+bpmarray.enqueue(100);
+bpmarray.enqueue(140);
+break;
+case 2:
+bpmarray.enqueue(120);
+bpmarray.enqueue(140);
+break;
+case 3:
+bpmarray.enqueue(130);
+bpmarray.enqueue(150);
+break;
+case 4:
+bpmarray.enqueue(140);
+bpmarray.enqueue(180);
+break;
+case 5:
+bpmarray.enqueue(80);
+bpmarray.enqueue(115);
+break;
+case 6:
+bpmarray.enqueue(130);
+bpmarray.enqueue(150);
+break;
+case 7:
+bpmarray.enqueue(60);
+bpmarray.enqueue(90);
+break;
 }
-*/
-}
+//genre array creation
+switch(genrearray[m]){
+case 1:
+genreq[m]="Rap";
+break;
+case 2:
+genreq[m]="Pop";
+break;
+case 3:
+genreq[m]="Classical";
+break;
+case 4:
+genreq[m]="Country";
+
+}}
+
+//after the for loop executes, global queues bpmarray, genreq, and local var timearray
+//...contain all necessary information for API information.
 
 }
   render() {
@@ -166,7 +160,3 @@ const styles = StyleSheet.create({
   },
 
 });
-
-
-
-
