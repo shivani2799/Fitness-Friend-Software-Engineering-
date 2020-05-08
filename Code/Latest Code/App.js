@@ -1,3 +1,6 @@
+  // written by: Mya Odrick
+  // tested by: Mya Odrick
+  // debugged by: Mya Odrick
 import * as React from 'react';
 import { Component } from 'react';
 import { Platform, StyleSheet, Text, View } from 'react-native';
