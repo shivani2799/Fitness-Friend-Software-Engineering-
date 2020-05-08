@@ -57,7 +57,9 @@ Snack.io server.
 12.Click on the name of the snack, and the app will launch.
 
 ### Authentication
-
+```
+Refer to files within the components\LoginComps, components\reducers, components\actions
+```
 The user is given the option to login with a premade account within the Firebase
 Database or signup for an account. For testing purposes, an example of an account
 connected to the database is: email: ​test@test.com​, password: password. Logging in
@@ -65,6 +67,9 @@ with this information will match with the information found in the Database fold
 However, you can create a new account and it will work the same.
 
 ### Calendar Sync
+```
+Refer to files within components\Calendar
+```
 
 Once a user is logged in, the user clicks on the Calendar option. This leads them to the
 calendar page.
@@ -91,6 +96,7 @@ Snack. In addition to this, Google only hands out specific web keys needed in
 order to use their Google Authentication system on a mobile device. Because of
 this, unless you are using a web app, the Google Authentication page will not
 appear when this button is pressed.
+
 If the user presses the Notification Timer button, the user will be directed to a page that
 will show a countdown. This countdown indicates the time in which they can expect the
 system to notify them again, if enough free time is available within their pre-set interval.
@@ -101,7 +107,9 @@ of a push notification.
 **Note: More information can be found within the Calendar README file
 
 ### Calorie Tracker
-
+```
+Refer to files within components\Food
+```
 Once a user is logged in, the user clicks on the Calorie Tracker option. This leads them
 to our Homescreen.
 The Homescreen displays the user’s calorie intake for the day at the top of the screen
@@ -115,7 +123,7 @@ the user can specify the quantity consumed. The calories are then calculated and
 to the Calorie Tracker.
 
 
-```
+
 If the user presses the Input Exercise button, the user will be directed to a menu-style
 page with exercise options. Once the user selects the exercise type, they will be
 prompted to enter the duration of the exercise and the date the exercise was completed.
@@ -128,12 +136,14 @@ input their gender, weight, goal--either gaining or losing weight, and their des
 amount of pounds to gain or lose. Once the user submits this information, it will be sent
 to the database. When the user updates this information, if the user meets their goal,
 they will be prompted with an alert that they met their goal.
-*Note: When inputting data, the user will have to press the button twice for the
+**Note: When inputting data, the user will have to press the button twice for the
 information to send to the database. This is due to the setState not changing on time.
 **Note: More information can be found within the Calorie Tracker README file
-```
+
 ### Music Curator
 
+```
+Refer to files within components\Music
 ```
 Spotify Authorization:
 We used the OAuth function to create a connection with the Spotify account of
@@ -148,7 +158,7 @@ exercise they want to do. They can also select the genre of music and how long
 they want to exercise. This data will be passed to the Spotify app and a new
 playlist will be created for the user. The user can listen to this playlist on Spotify
 while exercising.
-```
+
 ## Running the tests
 
 
