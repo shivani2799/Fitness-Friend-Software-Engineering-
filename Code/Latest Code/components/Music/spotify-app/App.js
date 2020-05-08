@@ -1,3 +1,6 @@
+// Created by - Shivani Sunil
+// Tested by - Devvrat Patel
+// Debugged by - Shivani Sunil
 import React from 'react';
 import { StyleSheet, Text, View, ActivityIndicator } from 'react-native';
 import Search from './Components/Search';
