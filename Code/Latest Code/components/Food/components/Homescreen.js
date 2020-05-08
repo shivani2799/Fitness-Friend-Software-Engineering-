@@ -1,3 +1,6 @@
+// written by: Maria Rios
+  // tested by: Maria Rios
+  // debugged by: Maria Rios & Mya Odrick
 import * as React from 'react';
 import {Component} from 'react'
 import {
